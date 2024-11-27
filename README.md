@@ -43,4 +43,5 @@ based using C and x86 assembly language. Implement the function imgCvtGrayDouble
 - Required to use functional scalar SIMD floating-point instructions
 
 Input: height, width, double float pixel values
+
 Output: Integer pixel values
