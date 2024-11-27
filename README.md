@@ -67,7 +67,7 @@ The table below shows the execution time (in seconds) for the conversion functio
 
 1. **Efficiency**: 
    - The program efficiently handles small images, with negligible execution time for sizes like 10x10.
-   - For larger images like 1000x1000, the function still performs well, taking just ~0.01 seconds on average.
+   - For larger images like 1000x1000, the function still performs well, taking just approximately 0.01 seconds on average.
 
 2. **Scaling Behavior**:
    - The execution time increases proportionally with the image size, demonstrating consistent linear scaling with the number of pixels.
