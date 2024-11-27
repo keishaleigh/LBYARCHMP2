@@ -67,19 +67,28 @@ int main() {
         t = clock() - t;
 
         double time_taken = ((double)t) / CLOCKS_PER_SEC / repeatCount;
+
+        // prints the randomly generated pixel values
+        printRandomValues(inputImage, width, height);
+
+        // prints the converted image
+        printf("\nConverted Image:\n");
+        printImage(outputImage, width, height);
+
         printf("\nimgCvtGrayDoubleToInt() took %f seconds to execute (average over %d runs)\n\n", time_taken, repeatCount);
     } else {
         // execute function once for unsupported sizes, but do not time it
         imgCvtGrayDoubleToInt(inputImage, outputImage, width, height);
+
+        // prints the randomly generated pixel values
+        printRandomValues(inputImage, width, height);
+
+        // prints the converted image
+        printf("\nConverted Image:\n");
+        printImage(outputImage, width, height);
+        
         printf("\nTiming not recorded for this image size.\n\n");
     }
 
-	// prints the randomly generated pixel values
-    printRandomValues(inputImage, width, height);
-
-	// prints the converted image
-    printf("\nConverted Image:\n");
-    printImage(outputImage, width, height);
-	
     return 0;
 }
