@@ -94,5 +94,5 @@ The image below demonstrates the program's output for a 3x4 and 10x10 image. The
 
 To use the program:
 1. Clone the repository.
-2. Run the script to generate random grayscale values, convert them to integers, and measure execution time.
+2. Run the bat file (run.bat) in the command line to generate random grayscale values, convert them to integers, and measure execution time.
 
