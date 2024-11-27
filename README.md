@@ -50,7 +50,7 @@ Output: Integer pixel values
 
 ## Execution Time Results
 
-The table below shows the execution time (in seconds) for the conversion function `imgCvtGrayDoubleToInt()` across different image sizes. Each result is averaged over 30 runs:
+Based on the specifications, the timing is measured only for input image sizes with dimensions `width*height = 10*10, 100*100, and 1000*1000`. If a 1000*1000 size is not feasible, it may be reduced to a size that the machine can support. Additionally, we have included results for 4x3 and 3x4 image sizes to provide more sample data for performance analysis. The table below shows the execution time (in seconds) for the conversion function `imgCvtGrayDoubleToInt()` across different image sizes. Each result is averaged over 30 runs:
 
 | **Image Size**      | **Execution Time (seconds)** |
 |----------------------|------------------------------|
