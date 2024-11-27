@@ -61,8 +61,6 @@ The table below shows the execution time (in seconds) for the conversion functio
 | 3x4                 | Timing not recorded for this image size                   |
 ---
 
----
-
 ## Analysis
 
 1. **Efficiency**: 
@@ -75,3 +73,12 @@ The table below shows the execution time (in seconds) for the conversion functio
 3. **Use Case**:
    - The function is suitable for real-time or near-real-time processing of moderate-sized images.
    - It can scale to larger datasets for batch processing scenarios.
+
+---
+
+## Program Output 
+
+The image below demonstrates the program's output for a 3x4 image. The input consists of randomly generated grayscale pixel values in the range [0.0, 1.0], and the expected output is the corresponding integer values. The output aligns with the correctness check, as the conversion accurately scales the input values to the expected range, preserving the relative intensities of the pixels.
+
+![3 x 4 Sample Ouput](Sample.png)
+
