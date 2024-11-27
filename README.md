@@ -80,6 +80,9 @@ Based on the specifications, the timing is measured only for input image sizes w
 
 The image below demonstrates the program's output for a 3x4 and 10x10 image. The input consists of randomly generated grayscale pixel values in the range [0.0, 1.0], and the expected output is the corresponding integer values. The output aligns with the correctness check, as the conversion accurately scales the input values to the expected range, preserving the relative intensities of the pixels.
 
+<img src="Sample.png" width="200"/>
+<img src="Sample2.png" width="200"/>
+
 ![3 x 4 Sample Ouput](Sample.png)
 ![10 x 10 Sample Ouput](Sample2.png)
 
