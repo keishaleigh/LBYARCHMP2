@@ -57,5 +57,6 @@ The table below shows the execution time (in seconds) for the conversion functio
 | 10x10               | 0.000000                    |
 | 100x100             | 0.000533                    |
 | 1000x1000           | 0.010300                    |
-
+| 4x3                 | Not recorded for this image size                    |
+| 3x4                 | Not recorded for this image size                   |
 ---
