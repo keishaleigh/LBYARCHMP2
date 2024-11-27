@@ -45,3 +45,17 @@ based using C and x86 assembly language. Implement the function imgCvtGrayDouble
 Input: height, width, double float pixel values
 
 Output: Integer pixel values
+
+# Execution Time Analysis of the Performance
+
+## Execution Time Results
+
+The table below shows the execution time (in seconds) for the conversion function `imgCvtGrayDoubleToInt()` across different image sizes. Each result is averaged over 30 runs:
+
+| **Image Size**      | **Execution Time (seconds)** |
+|----------------------|------------------------------|
+| 10x10               | 0.000000                    |
+| 100x100             | 0.000533                    |
+| 1000x1000           | 0.010300                    |
+
+---
